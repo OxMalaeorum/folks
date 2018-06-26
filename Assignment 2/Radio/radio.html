@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Radio</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../assignment2.css">
+  <link rel="stylesheet" href="../assignment2print.css" type="text/css" media="print">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div id="navdiv">
+      <a href="../Home/home.html"><img src="../Home/folk.ico" alt="Folks"></a>
+      <a href="../News/news.html">News</a>
+      <a href="../Academic/academic.html">Academic</a>
+      <a href="radio.html">Radio</a>
+      <a href="../Service/service.html">Service</a>
+      <a href="../Communication/communication.html">Communication</a>
+    </div>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+  </nav>
+
+    <img class="banner hideimg" src="radio_banner.jpg" alt="radio banner">
+
+  <div id="wrapper">
+    <header>
+      <h1>Radio</h1>
+    </header>
+
+    <main>
+      <p>Listed here are a selection of Radio stations for your listening
+         pleasure while you browse through the other links</p>
+      <br>
+      <hr>
+
+      <!-- Radio Section -->
+      <div class="clearboth">
+        <br>
+        <!-- Accuradio -->
+        <div class="polaroid">
+          <a href="https://www.accuradio.com/" target="_blank">
+          <img src="accuradio.jpg" alt="Accuradio" class="polaroid-image">
+          <div class="polaroid-text">
+            <hr>
+            <p><i>incredible variety, unlimited skips</i></p>
+          </div>
+          </a>
+        </div>
+        <!-- Radio Online -->
+        <div class="polaroid">
+          <a href="http://www.radioonline.my/" target="_blank">
+          <img src="radio_online.jpg" alt="Radio Online" class="polaroid-image">
+          <div class="polaroid-text">
+            <hr>
+            <p><i>malaysia's online radio</i></p>
+          </div>
+          </a>
+        </div>
+        <!-- Internet Radio -->
+        <div class="polaroid">
+          <a href="https://www.internet-radio.com/" target="_blank">
+          <img src="internet_radio.jpg" alt="Internet Radio" class="polaroid-image">
+          <div class="polaroid-text">
+            <hr>
+            <p><i>over 30,000 radio stations online</i></p>
+          </div>
+          </a>
+        </div>
+        <!-- Spotify -->
+        <div class="polaroid">
+          <a href="https://www.spotify.com/my-en/">
+          <img src="spotify.png" alt="Spotify" class="polaroid-image">
+          <div class="polaroid-text">
+            <hr>
+            <p><i>music for everyone</i></p>
+          </div>
+        </a>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <div id="footerdiv">
+      Copyright &copy; 2018 Folks<br>
+      <a href="../Contact/contactus.html">Contact Us</a>
+    </div>
+  </footer>
+
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+</body>
+
+</html>

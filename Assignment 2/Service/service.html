@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Services</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../assignment2.css">
+  <link rel="stylesheet" href="../assignment2print.css" type="text/css" media="print">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div id="navdiv">
+      <a href="../Home/home.html"><img src="../Home/folk.ico" alt="Folks"></a>
+      <a href="../News/news.html">News</a>
+      <a href="../Academic/academic.html">Academic</a>
+      <a href="../Radio/radio.html">Radio</a>
+      <a href="../Service/service.html">Service</a>
+      <a href="../Communication/communication.html">Communication</a>
+    </div>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+  </nav>
+
+  <div id="wrapper">
+    <header>
+      <h1>Services</h1>
+    </header>
+
+    <main>
+      <p>Listed here are some outside services to assist you in organising your life from your own home.
+         It includes Shopping, details on Medical Services & Old Age assisted Care, as well as Travel.</p>
+
+      <!-- Shopping Section-->
+      <div class="clearboth break">
+        <br>
+        <hr>
+        <h2>Shopping</h2>
+        <div class="service-container">
+          <img src="shopping.jpg" alt="Shopping" style="width:100%;">
+
+          <!-- top content: Zalora-->
+          <a href="https://www.zalora.com.my/" target="_blank">
+          <div class="service-content1">
+            <img class="aligncenter" src="zalora.png" alt="Zalora">
+          </div>
+          </a>
+
+          <!-- middle content: Lazada-->
+          <a href="https://www.lazada.com.my/" target="_blank">
+          <div class="service-content2">
+            <img class="aligncenter" src="lazada.png" alt="Lazada">
+          </div>
+          </a>
+
+          <!-- bottom content: Tesco-->
+          <a href="https://www.tesco.com.my/" target="_blank">
+          <div class="service-content3">
+            <img class="aligncenter" src="tesco.png" alt="Tesco">
+          </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Medical & Old Age Homes Section-->
+      <div class="clearboth break">
+        <br>
+        <hr>
+        <h2>Medical & Old Age Homes</h2>
+        <div class="service-container">
+          <img src="medical.jpg" alt="Medical & Old Age Homes" style="width:100%;">
+
+          <!-- top content: WebMD-->
+          <a href="https://www.webmd.com/" target="_blank">
+          <div class="service-content1">
+            <img class="aligncenter" src="webmd.png" alt="WebMD">
+          </div>
+          </a>
+
+          <!-- middle content: Prudential-->
+          <a href="https://www.prudential.com.my/en/our-products/products/prusenior-med/" target="_blank">
+          <div class="service-content2">
+            <img class="aligncenter" src="prudential.png" alt="Prudential">
+          </div>
+          </a>
+
+          <!-- bottom content: d2d healthcare-->
+          <a href="http://www.door2doordoctor.my/d2d-mobility/" target="_blank">
+          <div class="service-content3">
+            <img class="aligncenter" src="d2d_healthcare.png" alt="Tesco">
+          </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Travel Section-->
+      <div class="clearboth break">
+        <br>
+        <hr>
+        <h2>Travel</h2>
+        <div class="service-container">
+          <img src="travel.jpg" alt="Medical & Old Age Homes" style="width:100%;">
+
+          <!-- top content: Tripadvisor-->
+          <a href="https://www.tripadvisor.com.my/" target="_blank">
+          <div class="service-content1">
+            <img class="aligncenter" src="tripadvisor.png" alt="Tripadvisor">
+          </div>
+          </a>
+
+          <!-- middle content: Airasia-->
+          <a href="https://www.airasia.com/en/home.page?cid=1" target="_blank">
+          <div class="service-content2">
+            <img class="aligncenter" src="airasia.png" alt="Airasia">
+          </div>
+          </a>
+
+          <!-- bottom content: Meetup-->
+          <a href="https://www.meetup.com/" target="_blank">
+          <div class="service-content3">
+            <img class="aligncenter" src="meetup.png" alt="Meetup">
+          </div>
+          </a>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <div id="footerdiv">
+      Copyright &copy; 2018 Folks<br>
+      <a href="../Contact/contactus.html">Contact Us</a>
+    </div>
+  </footer>
+
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+</body>
+
+</html>
