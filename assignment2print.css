@@ -1,0 +1,235 @@
+/* General Layout Design CSS */
+head {
+  display: none;
+}
+
+body {
+  margin: 0;
+  background-image: url(Home/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* main content layout */
+#wrapper {
+  width: 80%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+/* navigation bar */
+.navbar {
+  display: none;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+/* progress bar container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background-color: #cccccc;
+  display: table-footer-group;
+}
+
+/* progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background-color: #4caf50;
+  width: 0%;
+}
+
+/* font properties */
+h1 {
+  font-family: "Oswald", serif;
+  font-weight: bold;
+  font-size: 64px;
+}
+
+h2 {
+  font-family: "Oswald", serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+p {
+  font-family: "Open Sans", serif;
+  font-size: 20px;
+}
+
+/* footer properties */
+footer {
+  display: none;
+}
+
+/* Polaroid Styled Image*/
+.polaroid {
+  float: left;
+  width: 45%;
+  height: 200px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.4);
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+
+/* text alignment in polaroid */
+.polaroid-text {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/* image alignment in polaroid */
+.polaroid-image {
+  display: block;
+  max-height: 50%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* news icon container */
+.news {
+  float: left;
+  width: 10%;
+  min-width: 100px;
+  height: 100px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+}
+
+/* news image size and box-shadow */
+.news img {
+  display: block;
+  width: 90%;
+  max-width: 100px;
+  height: 100px;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.4);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* text alignment below news icons */
+.textcenter {
+  text-align: center;
+}
+
+/* service image and content container */
+.service-container {
+  position: relative;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+/* top content properties */
+.service-content1 {
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+  border-bottom: 5px solid white;
+  color: #f1f1f1;
+  width: 100%;
+  height: 33%;
+}
+
+/* middle content properties */
+.service-content2 {
+  position: absolute;
+  top: 33%;
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  border-bottom: 5px solid white;
+  color: #f1f1f1;
+  width: 100%;
+  height: 33%;
+}
+
+/* bottom content properties */
+.service-content3 {
+  position: absolute;
+  top: 66%;
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  border-bottom: 5px solid white;
+  color: #f1f1f1;
+  width: 100%;
+  height: 34%;
+}
+
+/* service image alignment */
+.aligncenter {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  max-height: 50%;
+}
+
+/* communication image container */
+.communication {
+  width: 100%;
+  min-height: 500px;
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+.subcom {
+  display: block;
+  float: left;
+  width: 12%;
+  min-width: 100px;
+  margin:15px;
+}
+/* communication image properties */
+.subcom img {
+  width: 100%;
+  border-radius:50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* communication image enlarge when hovered*/
+.subcom img:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+form {
+    /* Just to center the form on the page */
+    margin: 0;
+    width: 300px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div {
+  text-align: right;
+  padding: 5px;
+}
+
+/* clear property for contents */
+.clearboth {
+  clear: both;
+}
+
+.hideimg {
+  display: none;
+}
+
+.break {
+  page-break-after: always;
+}
+
+footer {
+  page-break-before: always;
+}
